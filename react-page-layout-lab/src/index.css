@@ -1,0 +1,64 @@
+.app {
+  display: flex;
+  width: 850px;
+  justify-content: space-between;
+  border: 5px solid black;
+  padding: 20px;
+  gap: 20px;
+  border-radius: 5px;
+}
+
+.employee-list {
+  border: 5px solid yellow;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.search {
+  border: 5px solid green;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.header {
+  border: 5px solid blue;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.employee-list {
+  border: 5px solid purple;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.employee-list-item {
+  border: 5px solid red;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  text-align: right;
+}
+
+.home-page {
+  border: 5px solid gold;
+  width: 500px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.employee-page {
+  border: 5px solid maroon;
+  width: 350px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.bird {
+  width: 60px;
+  height:60px;
+  border-radius: 50%;
+  position:absolute;
+  top: 360px;
+  left: 95px;
+}
