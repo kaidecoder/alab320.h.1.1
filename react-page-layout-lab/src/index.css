@@ -36,7 +36,6 @@
   border: 5px solid red;
   padding: 20px;
   border-radius: 5px;
-  position: relative;
   text-align: right;
 }
 
@@ -58,7 +57,50 @@
   width: 60px;
   height:60px;
   border-radius: 50%;
-  position:absolute;
-  top: 360px;
-  left: 95px;
+  position: relative;
+  top: 110px;
+  left: 20px;
+  
+}
+
+.name, .text {
+  text-align: right;
+  position: relative;
+}
+
+.card {
+  border: 5px solid #d1d1d1;
+  background-color: #d1d1d1;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.employeeList {
+  padding: 20px;
+}
+
+.search {
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0 0 8px #ddd;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  font-size: 1.25rem;
+  width: 85%;
+  margin: 5px;
+}
+input:focused {
+  outline: none;
+}
+#search {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  width: 50px;
+  color: crimson;
 }

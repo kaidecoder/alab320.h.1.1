@@ -1,18 +1,17 @@
 import React from 'react'
 import EmployeeListItem from './EmployeeListItem'
-import bird from "../assets/black-capped-chickadee.jpg"
 
 const EmployeeList = (props) => {
+    console.log("EL", props)
+            
   return (
     <div className="employee-list">
-        <img className="bird" src={bird} alt="" />
         
-        <EmployeeListItem bird= {props.bird}/>
-        <EmployeeListItem bird= {props.bird}/>
-        <EmployeeListItem bird= {props.bird}/>
-        <EmployeeListItem bird= {props.bird}/>
-        <EmployeeListItem />
-        <EmployeeListItem />
+     {
+            props.data.map((employee, index) => (
+               <EmployeeListItem key={index}  name={employee.name} title={employee.title}/>
+            ))
+        }
     </div>
   )
 }

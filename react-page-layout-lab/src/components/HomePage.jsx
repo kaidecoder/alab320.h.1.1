@@ -5,11 +5,12 @@ import EmployeeList from './EmployeeList'
 
 
 const HomePage = (props) => {
+    console.log(props)
   return (
     <div className="home-page">
-        <Header title="props.title"/>
+        <Header title="Employee Directory"/>
         <SearchBar />
-        <EmployeeList />
+        <EmployeeList data={props.data}/>
     </div>
   )
 }

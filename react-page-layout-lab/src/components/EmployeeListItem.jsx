@@ -1,13 +1,15 @@
 import React from 'react'
-import bird from "../assets/black-capped-chickadee.jpg"
+import Image from './Image'
+import EmployeePageText from './EmployeePageText'
 
 const EmployeeListItem = (props) => {
+    
+    console.log(props)
   return (
-    <div>
-        <img className="bird" src={bird} alt="" />
-        <h1 className="employee-list-item">
-            Employee List</h1>
+    <div className="employeeList">
+        <EmployeePageText name={props.name} text={props.title} />
     </div>
+    
   )
 }
 
